@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+}
+body{
+    background-color: rgb(245, 243, 239);
+}
+
+.login_switch{
+    width: 300px;
+}
+
+.login_logo{
+    width: max-content;
+    margin: auto;
+}
+
+
+.switch_buttons{
+    display: flex;
+    justify-content: space-between;
+}
+.switch_button:hover{
+    cursor: pointer;
+    transition: 100ms;
+    transform: scale(1.2);
+}
+
+h3{
+    text-align: center;
+}
+.main_window{
+    margin: auto;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40vh;
+}
+
+.register_window{
+    width: max-content;
+    display: none;
+    transition: 400ms;
+    transition-property: display;
+}
+
+.login_window{
+    width: max-content;
+    display: none;
+    transition: 400ms;
+    transition-property: display;
+}
+
+
+.register_button{
+    background-color: rgb(86, 90, 90);
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 150px;
+    height: 25px;
+}
+
+.register_button:hover{
+    background-color: rgb(160, 160, 160);
+}
+
+.register_button_div{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    
+}
